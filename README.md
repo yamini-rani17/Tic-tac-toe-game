@@ -1,16 +1,124 @@
-# React + Vite
+# 🎮 AI Tic Tac Toe Game (React + Minimax)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart and interactive Tic Tac Toe game built with React, featuring an unbeatable AI powered by the Minimax algorithm.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://your-live-link-here.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🤖 AI opponent using **Minimax Algorithm**
+* 🎯 Player vs Computer gameplay
+* 🏆 Automatic winner detection
+* ✨ Winning cells highlight effect
+* 🔄 Restart game functionality
+* ⚡ Smooth animations and transitions
+* 📱 Responsive and modern UI
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React (Hooks)
+* 🎨 Tailwind CSS
+* 🧠 JavaScript
+
+---
+
+## 📂 Project Structure
+
+```bash
+tic-tac-toe-ai/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── public/
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yamini-rani17/Tic-tac-toe-game
+```
+
+Go to project folder:
+
+```bash
+cd Tic-tac-toe-game
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎮 How to Play
+
+* You play as **X**
+* AI plays as **O**
+* Click on any empty box to make your move
+* AI will respond automatically
+* First to align 3 marks wins 🏆
+* If all boxes fill → Draw 🤝
+
+---
+
+## 🧠 AI Logic (Minimax)
+
+The game uses the **Minimax algorithm**, which ensures:
+
+* AI always plays the best possible move
+* AI is **unbeatable**
+* Evaluates all possible game outcomes
+
+---
+
+## 📸 Screenshot
+
+![Game Screenshot](./home.png)
+![Game Screenshot](./win.png)
+![Game Screenshot](./draw.png)
+
+
+---
+
+## 🌟 Future Improvements
+
+* 🎚️ Difficulty levels (Easy / Medium / Hard)
+* 🔊 Sound effects
+* 🌐 Multiplayer mode
+* 🎨 More UI themes
+
+---
+
+## 👩‍💻 Author
+
+**Yamini Rani**
+GitHub: (https://github.com/yamini-rani17)
+
+---
+
+
+⭐ If you like this project, give it a star!
