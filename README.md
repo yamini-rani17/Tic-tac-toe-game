@@ -6,7 +6,7 @@ A smart and interactive Tic Tac Toe game built with React, featuring an unbeatab
 
 ## 🚀 Live Demo
 
-👉 https://your-live-link-here.com
+👉 https://tic-tac-toe-game-5kanpygb1-yamini-rani17s-projects.vercel.app/
 
 ---
 
